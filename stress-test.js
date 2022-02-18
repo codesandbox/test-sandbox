@@ -9,9 +9,14 @@ function randomIntFromInterval(min, max) { // min and max included
   }
   
 
-
+let runCount = 0
 
 async function run() {
+  runCount++
+  if (runCount > 2) {
+    return
+  } 
+  
   await wait(randomIntFromInterval(500, 2000))
   const json = fs.readFileSync('test.json').toString()
   try {
