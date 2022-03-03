@@ -5,7 +5,7 @@ async function sleep(ms) {
 }
 
 async function run() {
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 3; i++) {
     await sleep(5000);
     console.log(`Sleep ${i}`);
   }
