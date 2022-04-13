@@ -18,8 +18,8 @@ const Home: NextPage = () => {
 
         <p className={styles.description}>
           Start editing
-          <code className={styles.code}>pages/index.tsx</code> to see some magic
-          happen ✨.
+          <code className={styles.code}> maybe pages/index.tsx</code> to see
+          some magic happen ✨.
         </p>
 
         <div className={styles.grid}>
