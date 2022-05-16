@@ -4,6 +4,7 @@ stdenv.mkDerivation {
     name = "node";
     buildInputs = [
         nodejs
+        
         htop
     ];
     shellHook = ''
