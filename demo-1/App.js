@@ -15,7 +15,7 @@ setInterval(() => {
 export default () => (
   <h1>
     <div id="nice-text" style={{ color: "tomato", transition: "2s ease all" }}>
-      I need to make changes for Christian!!!!!!!!!!!
+      I need to make changes for Christian!!!!
     </div>
     {sum([2, 2])}
   </h1>
