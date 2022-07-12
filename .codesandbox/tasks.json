@@ -4,6 +4,10 @@
     {
       "name": "Install Dependencies",
       "command": "yarn install"
+    },
+    {
+      "name": "Lint Stuff",
+      "command": "yarn lint"
     }
   ],
 
