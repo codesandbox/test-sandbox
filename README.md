@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting S123tarted
 
-First, run the development server:
+First, run the development server:123
 
 ```bash
 yarn run dev
