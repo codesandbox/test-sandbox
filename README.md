@@ -6,7 +6,7 @@ First, run the development server:123
 
 ```bash
 yarn run dev
-```
+```123
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
