@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <Hello className={styles.title} name="CodeSandbox" />
-        change 3
+        change 4
         <p className={styles.description}>
           Start editing
           <code className={styles.code}>pages/index.tsx</code> to see some magic
