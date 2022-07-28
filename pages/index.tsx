@@ -18,7 +18,7 @@ const Home: NextPage = () => {
 
         <p className={styles.description}>
           Start editing
-          change 2
+          change 3
           <code className={styles.code}>pages/index.tsx</code> to see some magic
           happen ✨.
         </p>
