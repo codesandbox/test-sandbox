@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <Hello className={styles.title} name="CodeSandbox" />
 
         <p className={styles.description}>
-          Start editing
+          Make changes
           <code className={styles.code}>pages/index.tsx</code> to see some magic
           happen ✨.
         </p>
