@@ -13,6 +13,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      {a}
+
       <main className={styles.main}>
         <Hello className={styles.title} name="CodeSandbox" />
 
