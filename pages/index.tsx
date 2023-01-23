@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <Hello className={styles.title} name="V2" />
+        <Hello className={styles.title} name="V3" />
 
         <p className={styles.description}>
           Start editing
