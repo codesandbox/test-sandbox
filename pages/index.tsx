@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <Hello className={styles.title} name="CodeSandbox" />
+        <Hello className={styles.title} name="V1" />
 
         <p className={styles.description}>
           Start editing
@@ -62,7 +62,8 @@ const Home: NextPage = () => {
           Powered by{" "}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>. Ives edited this (frice)!
+          </span>
+          . Ives edited this (frice)!
         </a>
       </footer>
     </div>
