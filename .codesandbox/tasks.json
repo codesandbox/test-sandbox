@@ -1,0 +1,28 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "dev1": {
+      "name": "Serve files",
+      "command": "yarn serve public",
+      "runAtStart": true
+    },
+    "dev2": {
+      "name": "dev2",
+      "command": "yarn dev",
+      "runAtStart": true
+    },
+    "dev3": {
+      "name": "dev3",
+      "command": "sleep infinity",
+      "runAtStart": true
+    }
+  }
+}
