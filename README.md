@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started Blazingly Fast
 
 First, run the development server:
-asdf
+asdfsdfg
 
 ```bash
 yarn run dev
