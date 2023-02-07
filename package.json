@@ -1,5 +1,5 @@
 {
-  "name": "test-sandbox",
+  "name": "test-sandbox-2",
   "private": true,
   "scripts": {
     "dev": "next dev",
