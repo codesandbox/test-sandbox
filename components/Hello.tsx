@@ -6,4 +6,8 @@ export const Hello = ({
 }: {
   name: string;
   className: string;
-}) => <h1 className={className}>Hello {name}!</h1>;
+}) => (
+  <div>
+    <h1 className={className}>Koek {name}!</h1>
+  </div>
+);
