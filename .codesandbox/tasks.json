@@ -12,10 +12,7 @@
     "dev": {
       "name": "dev",
       "command": "yarn dev",
-      "runAtStart": true,
-      "restartOn": {
-        "files": [".codesandbox/Dockerfile"]
-      }
+      "runAtStart": true
     }
   }
 }
