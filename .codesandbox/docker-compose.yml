@@ -16,5 +16,8 @@ services:
         volumes:
         - ../package.json:/package.json
         - datavol:/data
+    testbuild:
+        build:
+            context: ../test
 volumes:
   datavol:
