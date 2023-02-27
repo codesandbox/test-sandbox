@@ -1,0 +1,23 @@
+services:
+    redis:
+        image: redis:6.2.0
+        healthcheck:
+            test: ["CMD-SHELL", "redis-cli ping"]
+            interval: 5s
+            timeout: 5s
+            retries: 5 
+    nginx:
+        image: nginx
+        depends_on:
+            redis:
+                condition: service_healthy
+        ports:
+            - 8080:80
+        volumes:
+        - /project/test-sandbox/package.json:/package.json
+        - datavol:/data
+    testbuild:
+        build:
+            context: ./test
+volumes:
+  datavol:
