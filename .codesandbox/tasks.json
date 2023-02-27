@@ -1,0 +1,3 @@
+{
+  "setupTasks": ["touch .env", "echo hello > .env"]
+}
