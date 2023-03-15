@@ -1,6 +1,7 @@
 {
   "name": "test-sandbox",
   "private": true,
+  "foo": "bar",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
