@@ -8,3 +8,5 @@ services:
         command: sleep infinity
     nginx:
         image: nginx
+        ports:
+            - 8080:80

@@ -1,6 +1,0 @@
-{
-  "name": "Test Sandbox",
-  "dockerComposeFile": "docker-compose.yml",
-  "service": "workspace",
-  "workspaceFolder": "/workspace"
-}

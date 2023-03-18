@@ -1,0 +1,12 @@
+{
+  "name": "Test Sandbox",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "workspace",
+  "workspaceFolder": "/workspace",
+  "portsAttributes": {
+    "3000": {
+      "label": "Application port",
+      "requireLocalPort": true
+    }
+  }
+}
