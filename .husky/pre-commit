@@ -1,6 +1,3 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
 # FORCE_COLOR is needed due to issue detecting TTY:
 # https://github.com/okonet/lint-staged/issues/1145
 FORCE_COLOR=1 yarn lint-staged
