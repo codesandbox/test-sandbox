@@ -17,6 +17,12 @@
     "@types/react": "17.0.37",
     "eslint": "8.4.1",
     "eslint-config-next": "^13",
-    "typescript": "4.5.2"
+    "typescript": "4.5.2",
+    "prettier": "^2.5.1",
+    "lint-staged": "^12.4.2"
+  },
+  "lint-staged": {
+    "*": "prettier -u --write",
+    "*.{js,jsx,ts,tsx}": "eslint --cache --fix"
   }
 }
