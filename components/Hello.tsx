@@ -6,4 +6,4 @@ export const Hello = ({
 }: {
   name: string;
   className: string;
-}) => <h1 className={classNameddsssasssd}>Hello {name}!</h1>;
+}) => <h1 className={classNamedsssasssd}>Hello {name}!</h1>;
