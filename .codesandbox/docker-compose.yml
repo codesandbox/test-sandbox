@@ -2,4 +2,4 @@ services:
     nginx:
         image: nginx
         ports:
-            - 8080:80
+            - 8081:80
