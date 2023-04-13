@@ -1,3 +1,49 @@
 {
-  "setupTasks": ["touch .env", "echo hello > .env", "yarn install"]
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    },
+    {
+      "name": "ls",
+      "command": "ls"
+    },
+    {
+      "name": "yarn lint",
+      "command": "yarn lint"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "desv": {
+      "name": "desv",
+      "command": "yarn desv",
+      "runAtStart": true
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "startd": {
+      "name": "startd",
+      "command": "yarn startd",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
+    "yarn lint --fix": {
+      "name": "yarn lint --fix",
+      "command": "yarn lint --fix"
+    },
+    "yarn test": {
+      "name": "yarn test",
+      "command": "yarn test"
+    }
+  }
 }

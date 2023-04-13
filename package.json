@@ -2,9 +2,9 @@
   "name": "test-sandbox",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "desv": "next dev",
     "build": "next build",
-    "start": "next start",
+    "startd": "next start",
     "lint": "next lint"
   },
   "dependencies": {
