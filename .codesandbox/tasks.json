@@ -1,3 +1,10 @@
 {
-  "setupTasks": ["touch .env", "echo hello > .env", "yarn install"]
+  "setupTasks": ["touch .env", "echo hello > .env", "yarn install"],
+  "tasks": {
+    "dev": {
+      "name": "Application",
+      "command": "yarn dev",
+      "runAtStart": false
+    }
+  }
 }
