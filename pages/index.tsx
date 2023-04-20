@@ -5,6 +5,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <h1>Hello CodeSandbox!</h1>
+      <h4>What is happening?</h4>
       <h2>This is Next.js</h2>
     </div>
   );
