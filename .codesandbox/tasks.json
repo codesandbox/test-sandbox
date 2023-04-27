@@ -12,15 +12,16 @@
     {
       "name": "yarn lint",
       "command": "yarn lint"
-    }
+    },
+    "node"
   ],
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "desv": {
-      "name": "desv",
-      "command": "yarn desv",
-      "runAtStart": true
+    "dev": {
+      "name": "dev",
+      "command": "yarn dev",
+      "runAtStart": false
     },
     "build": {
       "name": "build",
@@ -37,13 +38,17 @@
       "command": "yarn lint",
       "runAtStart": false
     },
-    "yarn lint --fix": {
-      "name": "yarn lint --fix",
-      "command": "yarn lint --fix"
+    "ls -la": {
+      "name": "ls -la",
+      "command": "ls -la"
     },
-    "yarn test": {
-      "name": "yarn test",
-      "command": "yarn test"
+    "multi-ports": {
+      "name": "Ports",
+      "command": "node server.js",
+      "runAtStart": false,
+      "preview": {
+        "port": 3005
+      }
     }
   }
 }
