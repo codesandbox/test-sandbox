@@ -1,0 +1,3 @@
+FROM node
+
+RUN touch /in-csb-container
