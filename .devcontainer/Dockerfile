@@ -1,3 +1,3 @@
 FROM node
 
-RUN touch /in-devcontainer
+RUN echo "dockerfile" > /in-devcontainer
