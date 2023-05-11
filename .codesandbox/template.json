@@ -1,6 +1,7 @@
 {
   "title": "Amazing Sandbox",
   "description": "What a cool sandbox with a template config file!",
+  "iconUrl": "https://github.com/codesandbox/sandpack/blob/main/website/landing/public/assets/sandpack_og.jpeg",
   "tags": ["real-tag", "cat"],
   "published": true
 }
