@@ -6,4 +6,5 @@
   },
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
   "workspaceFolder": "/workspace",
+  "forwardPorts": [3000]
 }

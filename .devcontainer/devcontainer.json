@@ -1,9 +1,7 @@
 {
   "name": "Test Sandbox",
-  "build": {
-    "context": ".",
-    "dockerfile": "Dockerfile"
-  },
-  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
-  "workspaceFolder": "/workspace"
+  "service": "app",
+  "dockerComposeFile": "docker-compose.yml",
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [3000]
 }

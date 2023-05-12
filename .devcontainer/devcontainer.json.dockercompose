@@ -3,10 +3,5 @@
   "service": "app",
   "dockerComposeFile": "docker-compose.yml",
   "workspaceFolder": "/workspace",
-  "portsAttributes": {
-    "3000": {
-      "label": "Application port",
-      "requireLocalPort": true
-    }
-  }
+  "forwardPorts": [3000]
 }
