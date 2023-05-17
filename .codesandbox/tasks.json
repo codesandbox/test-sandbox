@@ -20,7 +20,10 @@
     "dev": {
       "name": "Application",
       "command": "yarn dev",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 3000
+      }
     }
   }
 }

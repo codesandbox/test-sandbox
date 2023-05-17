@@ -1,3 +1,3 @@
 FROM node
 
-RUN echo "dockerfile" > /in-devcontainer
+RUN echo "docker-compose" > /in-devcontainer
