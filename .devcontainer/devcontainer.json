@@ -4,6 +4,5 @@
   "dockerComposeFile": "docker-compose.yml",
   "workspaceFolder": "/workspace",
   "forwardPorts": [3000, "echoserver:5000"],
-  "postCreateCommand": "yarn install",
-  "postStartCommand": "yarn dev"
+  "postCreateCommand": "yarn install"
 }

@@ -8,10 +8,6 @@
     {
       "name": "echo hello > .env",
       "command": "echo hello > .env"
-    },
-    {
-      "name": "yarn install",
-      "command": "yarn install"
     }
   ],
 
