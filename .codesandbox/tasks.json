@@ -4,10 +4,6 @@
     {
       "name": "touch .env",
       "command": "touch .env"
-    },
-    {
-      "name": "echo hello > .env",
-      "command": "echo hello > .env"
     }
   ],
 
@@ -20,6 +16,11 @@
       "preview": {
         "port": 3000
       }
+    },
+    "server": {
+      "name": "Test server",
+      "command": "npx --yes serve",
+      "runAtStart": true
     }
   }
 }
