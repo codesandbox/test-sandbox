@@ -16,14 +16,11 @@
     "dev": {
       "name": "Application",
       "command": "yarn dev",
-      "runAtStart": true,
-      "preview": {
-        "port": 3000
-      }
+      "runAtStart": true
     },
     "server": {
       "name": "Test server",
-      "command": "npx --yes serve",
+      "command": "npx --yes serve -l 8080",
       "runAtStart": true
     }
   }
