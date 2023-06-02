@@ -18,7 +18,7 @@
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
     "dev": {
-      "name": "Application",
+      "name": "Application change",
       "command": "npm run dev",
       "runAtStart": true
     }
