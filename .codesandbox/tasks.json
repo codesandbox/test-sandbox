@@ -13,14 +13,24 @@
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "dev": {
-      "name": "Application",
-      "command": "yarn dev",
+    // "dev": {
+    //   "name": "Application",
+    //   "command": "yarn dev",
+    //   "runAtStart": true
+    // },
+    // "server": {
+    //   "name": "Test server",
+    //   "command": "npx --yes serve -l 8080",
+    //   "runAtStart": true
+    // }
+    "test": {
+      "name": "Test",
+      "command": "node test.js",
       "runAtStart": true
     },
-    "server": {
-      "name": "Test server",
-      "command": "npx --yes serve -l 8080",
+    "top": {
+      "name": "HTOP",
+      "command": "htop",
       "runAtStart": true
     }
   }

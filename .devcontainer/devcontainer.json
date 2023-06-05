@@ -1,8 +1,14 @@
 {
   "name": "Test Sandbox",
-  "service": "app",
-  "dockerComposeFile": "docker-compose.yml",
+  "build": {
+    "context": ".",
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
   "workspaceFolder": "/workspace",
-  "forwardPorts": [3000, "echoserver:5000"],
-  "postCreateCommand": "yarn install"
+  "forwardPorts": [3000],
+  "postCreateCommand": "yarn install",
+  "remoteEnv": {
+    "CODESANDBOX_HOST": "gblf0g-$PORT-yspu4v"
+  }
 }
