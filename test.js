@@ -1,3 +1,3 @@
 setInterval(() => {
-  console.log("HOSTA", process.env.CODESANDBOX_HOST);
+  console.log("HOST", process.env.CODESANDBOX_HOST);
 }, 1000);
