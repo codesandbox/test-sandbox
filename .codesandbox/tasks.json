@@ -7,7 +7,7 @@
     // },
     {
       "name": "touch .env",
-      "command": "touch .env"
+      "command": "touch .env && touch test"
     }
   ],
 
