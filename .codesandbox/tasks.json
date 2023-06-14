@@ -1,10 +1,10 @@
 {
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
-    {
-      "name": "yarn install",
-      "command": "yarn install"
-    },
+    // {
+    //   "name": "yarn install",
+    //   "command": "yarn install"
+    // },
     {
       "name": "touch .env",
       "command": "touch .env"
@@ -13,24 +13,9 @@
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    // "dev": {
-    //   "name": "Application",
-    //   "command": "yarn dev",
-    //   "runAtStart": true
-    // },
-    // "server": {
-    //   "name": "Test server",
-    //   "command": "npx --yes serve -l 8080",
-    //   "runAtStart": true
-    // }
-    "test": {
-      "name": "Test",
-      "command": "node test.js",
-      "runAtStart": true
-    },
-    "top": {
-      "name": "HTOP",
-      "command": "htop",
+    "dev": {
+      "name": "Application",
+      "command": "yarn dev",
       "runAtStart": true
     }
   }

@@ -8,5 +8,4 @@
   "workspaceFolder": "/workspace",
   "forwardPorts": [3000],
   "postCreateCommand": "yarn install",
-  "postStartCommand": "yarn dev"
 }

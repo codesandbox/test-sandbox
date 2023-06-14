@@ -1,3 +1,3 @@
-FROM node
+FROM node:18
 
-RUN echo "docker-compose" > /in-devcontainer
+RUN echo "docker-compose4" > /in-devcontainer
