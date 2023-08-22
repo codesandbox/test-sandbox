@@ -15,7 +15,8 @@
   "tasks": {
     "test": {
       "name": "Start development server",
-      "command": "sleep infinity"
+      "command": "sleep infinity",
+      "runAtStart": true
     }
   }
 }
