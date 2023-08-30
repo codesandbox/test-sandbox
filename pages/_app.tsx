@@ -4,7 +4,7 @@ import type { AppProps } from 'next/app'
 
 function MyApp({ Component, pageProps }: AppProps) {
 
-    useState()
+  useState()
 
   
   return <Component {...pageProps} />
