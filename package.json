@@ -23,6 +23,6 @@
     "typescript": "4.5.2"
   },
   "lint-staged": {
-    "**/*.(ts|tsx)": "yarn lint"
+    "*.{js,jsx,ts,tsx}": "eslint --cache --cache-location .next/cache/eslint/ --fix"
   }
 }
