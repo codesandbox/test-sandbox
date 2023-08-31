@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started - mkip
 
-More testing from me
+Even more testing, haha!!
 
 ```bash
 npm run dev
