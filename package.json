@@ -2,6 +2,7 @@
   "name": "workspace",
   "version": "0.1.0",
   "private": true,
+  "description": "Some cool description",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
