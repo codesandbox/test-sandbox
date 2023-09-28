@@ -1,6 +1,7 @@
 {
   "name": "workspace",
   "version": "0.1.0",
+  "description": "My sweet project!",
   "private": true,
   "scripts": {
     "dev": "next dev",
