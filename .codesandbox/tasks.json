@@ -7,7 +7,7 @@
     },
     {
       "name": "echo hello > .env",
-      "command": "echo hello > .env"
+      "command": "echo hello=\"HELLO\" > .env"
     },
     {
       "name": "npm install",
