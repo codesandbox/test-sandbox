@@ -1,0 +1,9 @@
+services:
+  app:
+    image: node:20
+    volumes:
+      - ../:/workspace:cached
+    command: sleep infinity
+  
+  nginx:
+    image: nginx

@@ -17,6 +17,11 @@
         "port": 5173
       }
     },
+    "test-nginx": {
+      "name": "testnginx",
+      "command": "curl nginx",
+      "runAtStart": true
+    },
     "build": {
       "name": "build",
       "command": "yarn build",
