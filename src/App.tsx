@@ -1,10 +1,11 @@
-import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import { useCount } from "./useCount"; // Import useCount hook
 
 function App() {
-  const [count, setCount] = useState(10);
+  // Utilize the useCount hook
+  const { count, setCount } = useCount(10);
 
   return (
     <>
