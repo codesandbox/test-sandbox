@@ -4,7 +4,7 @@ import "./App.css";
 import useCount from "./useCount";
 
 function App() {
-  const [count, setCount] = useCount(10);
+  const [count, setCount] = useCount(20);
 
   return (
     <>
